@@ -111,10 +111,6 @@ font-family: 'Cormorant Garamond', serif; */
   text-decoration: none;
 }
 
-body {
-  background-color: #f3f3f3;
-}
-
 /* HEADER SECTION */
 
 header {
@@ -166,14 +162,21 @@ header nav ul li a {
   height: calc(100vh - 100px);
   background-image: url('images/banner.jpg');
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: 60%;
   background-size: cover;
+  display: table;
+}
+
+.vertical-center {
+  display: table-cell;
+  vertical-align: middle;
 }
 
 .index-banner h2 {
   font-family: 'Catamaran', sans-serif;
   font-size: 60px;
   font-weight: 900;
+  line-height: 70px;
   color: #ffffff;
   text-align: center;
   text-shadow: 2px 2px 8px #111111;
@@ -184,7 +187,69 @@ header nav ul li a {
   font-size: 28px;
   font-weight: 100;
   font-style: italic;
+  line-height: 40px;
   color: #ffffff;
   text-align: center;
   text-shadow: 2px 2px 8px #111111;
 }
+
+.index-links div {
+  margin: 16px 16px 0;
+  width: calc(100% - 32px);
+  height: 100px;
+  background-color: #f2f2f2;
+}
+
+.index-links div h3 {
+  font-family: 'Catamaran', sans-serif;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 40px;
+  color: #111;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 100px;
+}
+
+/* FOOTER */
+
+footer {
+  width: calc(100% - 80px);
+  padding: 40px;
+  margin-top: 20px;
+  background-color: #111;
+  overflow: hidden;
+}
+
+footer ul {
+  width: fit-content;
+  float: left;
+  padding-left: 20px;
+}
+
+footer ul li {
+  display: block;
+  list-style: none;
+}
+
+footer ul li a {
+  font-family: 'Catamaran', sans-serif;
+  font-size: 24px;
+  color: #fff;
+  line-height: 37.5px;
+}
+
+.footer-links-cases {
+  display: none;
+}
+
+.footer-socials {
+  width: 50px;
+  float: right;
+}
+
+.footer-socials img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
