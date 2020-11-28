@@ -165,6 +165,7 @@ header nav ul li a {
   background-repeat: no-repeat;
   background-position: 60%;
   background-size: cover;
+  padding-top: 100px;
   display: table;
 }
 
