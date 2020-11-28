@@ -218,7 +218,7 @@ header nav ul li a {
 /* FOOTER */
 
 footer {
-  width: calc(100% - 80px);
+  width: 100%;
   padding: 40px;
   margin-top: 20px;
   background-color: #111;
