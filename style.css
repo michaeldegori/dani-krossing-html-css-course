@@ -196,7 +196,7 @@ header nav ul li a {
 
 .index-banner {
   width: 100%;
-  height: calc(90vh - 100px);
+  height: calc(88vh - 100px);
   background-image: url('images/banner.jpg');
   background-repeat: no-repeat;
   background-position: 60%;
