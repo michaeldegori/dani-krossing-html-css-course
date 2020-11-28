@@ -109,6 +109,8 @@ font-family: 'Cormorant Garamond', serif; */
 
 * {
   text-decoration: none;
+  /* border-box keeps all content inside of parent element, regardless of ***padding*** (margins will still push it outside of parent box) */
+  box-sizing: border-box;
 }
 
 /* HEADER SECTION */
