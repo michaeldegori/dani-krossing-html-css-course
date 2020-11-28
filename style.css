@@ -158,6 +158,39 @@ header nav ul li a {
   display: none;
 }
 
+@media only screen and (min-width: 768px) {
+  header .header-brand {
+    margin: 31px 0;
+    text-align: left;
+    line-height: 38px;
+    padding: 0px 20px 0px 40px;
+    border-right: 3px solid #111;
+    float: left;
+  }
+
+  header nav ul {
+    margin: 20px 0 20px 20px;
+    float: left;
+  }
+
+  header nav ul li a {
+    line-height: 60px;
+  }
+
+  .header-cases {
+    display: block;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 16px;
+    color: #111;
+    line-height: 38px;
+    border: solid #d3d3d3 1px;
+    float: right;
+    margin-right: 40px;
+    margin-top: 30px;
+    padding: 0 20px;
+  }
+}
+
 /* INDEX-HOMEPAGE */
 
 .index-banner {
